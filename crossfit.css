@@ -1,0 +1,224 @@
+*{
+    font-family: sans-serif;
+}
+.dropdown-item:hover{
+color: rgb(236, 116, 4) !important; 
+background-color: black !important;
+ }
+ .dropdown-menu{
+    
+    background-color: black !important;
+     }
+
+
+#section2 .carousel-item{
+    background-attachment: fixed !important;
+    min-height: 100vh !important;
+    background-position: center  !important;
+    background-size: cover !important;
+    
+}
+#section2 .carousel-item .container{
+position: absolute;
+color: white;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.container > h1{
+    font-size: 4rem;
+    font-weight: bolder;
+
+}
+.main p{
+    font-size: 1.4rem;
+    
+
+}
+@media screen and (min-width:600px) and (max-width: 1030px){
+   .text{
+        width: 100% !important;
+    }
+
+
+}
+@media screen and (min-width:450px) and (max-width: 600px){
+    .container > h1{
+        font-size: 3rem;
+        font-weight: bolder;
+    
+    }
+    .main p{
+        font-size: 1rem;
+        
+    
+    }
+    .text{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:370px) and (max-width: 450px){
+    .container > h1{
+        font-size: 2.4rem;
+        font-weight: bolder;
+    
+    }
+    .main p{
+        font-size: 0.9rem;
+        
+    
+    }
+    .text{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:270px) and (max-width: 370px){
+    .container > h1{
+        font-size: 1.7rem;
+        font-weight: bolder;
+    
+    }
+    .main p{
+        font-size: 0.76rem;
+        
+    
+    }
+    .text{
+        width: 100% !important;
+    }
+
+}
+    
+@media screen and (min-width:0px) and (max-width: 270px){
+    .container > h1{
+        font-size: 1rem;
+        font-weight: bolder;
+    
+    }.main p{
+        font-size: 0.4rem;
+        
+    
+    
+    }.text{
+        width: 100% !important;
+    }
+
+
+}
+#section2 .carousel-control{
+    
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+#section2 .carousel-control:hover{
+    background-color: black !important;
+}  
+ 
+.fas{
+    padding-top: 0.9rem;
+}
+ hr{
+    width: 3.3rem !important;
+    background-color: rgb(236, 116, 4);
+    opacity: 3;
+    
+}
+.c{
+    margin: 0rem 1rem;
+}
+.btn-bg{
+  background-color: rgb(236, 116, 4) !important;
+  color: white !important;
+  
+}
+.club{
+    margin-top: 9rem !important;
+}
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    
+    bottom: -70px;
+}
+.carousel-indicators > button{
+ background: black !important;
+ border-radius: 50% ;
+ width: 1rem !important;
+ height: 0.01rem !important;
+ 
+
+}
+.carousel-indicators .active{
+    background: rgb(236, 116, 4) !important;
+}
+.btn{
+    letter-spacing: 2px;
+}
+.btn-shadow:hover{
+  box-shadow: 2px 3px 20px 1px grey;
+
+}
+.btn-outline{
+    border: 1px solid rgb(236, 116, 4) !important;
+    color: rgb(236, 116, 4) !important;
+}
+.btn-outline:hover{
+    background-color: rgb(236, 116, 4);
+    color: black !important;
+}
+.text{
+  width: 40%;
+}
+.section5{
+    background: linear-gradient(
+        rgba(131,128,128,0.78),
+        rgba(153,150,150,0.78)
+        
+    ),url(crossfit\ img/club.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    min-height: 100vh;
+    opacity: 0.99;
+    /* z-index: ; */
+}
+.margin{
+    margin-top: 10rem !important;
+    
+}
+.spacing{
+    letter-spacing: 2px;
+}
+.crossfit{
+    width: 70%;
+}
+.color{
+    color: rgb(236, 116, 4);
+}
+.pop:hover{
+    transform: translateY(-20px);
+    transition: all 0.4s ease-in;
+}
+.about:hover{
+    background-color: rgb(211, 103, 3) !important;
+}
+.light{
+    color: rgb(168, 164, 164);
+}
+.light-color{
+    color: rgb(168, 164, 164);
+}
+.light:hover{
+    color: white !important;
+}
+.section8 ul li{
+    margin-bottom: 15px;
+}
+.last{
+    width:75% !important;
+}
+.section8{
+    background-color: #211f1f !important;
+}
